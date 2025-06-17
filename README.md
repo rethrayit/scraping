@@ -1,1 +1,1 @@
-Project to assit input books details to Ksiegarnia
+Project to assist input book details to Ksiegarnia
