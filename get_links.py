@@ -1,3 +1,8 @@
+#-----------------------------
+# This script scrapes product links from a bookstore website based on ISBNs provided in a CSV file.
+# It reads ISBNs from a source CSV file, searches for each ISBN on the website, and writes the found product links to a results CSV file.
+# It uses the requests library to fetch web pages and BeautifulSoup to parse HTML content.
+# -----------------------------
 import requests
 from bs4 import BeautifulSoup
 import csv
