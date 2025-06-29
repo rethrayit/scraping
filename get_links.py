@@ -9,7 +9,7 @@ import csv
 
 # Input and output file names
 SOURCE_FILE = "source.csv"
-RESULTS_FILE = "results.csv"
+RESULTS_FILE = "part2.csv"
 
 # Base URL for search
 BASE_SEARCH_URL = "https://ksiegarniainternetowa.co.uk/en/search?q="

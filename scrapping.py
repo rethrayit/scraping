@@ -5,7 +5,7 @@ import os
 
 # Constants
 BASE_URL = "https://ksiegarniainternetowa.co.uk"
-LINKS_DB_FILE = "results.csv"
+LINKS_DB_FILE = "ready_links.csv"
 
 # Read links from CSV
 def read_links():
@@ -86,8 +86,8 @@ def scrape_page(link):
     # Extract bibliographic data
     if table:
         for row in table.find_all("tr"):
-            label = row.find("td", class_="bioInfoLabel")
-            data = row.find("td", class_="bioInfoData")
+            label = row.find("th", class_="bioInfoLabel")
+            data = row.find("th", class_="bioInfoData")
 
             if not label or not data:
                 continue
