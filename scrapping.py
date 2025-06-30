@@ -5,7 +5,7 @@ import os
 
 # Constants
 BASE_URL = "https://ksiegarniainternetowa.co.uk"
-LINKS_DB_FILE = "ready_links.csv"
+LINKS_DB_FILE = "links_29062025.csv"
 
 # Read links from CSV
 def read_links():
@@ -151,7 +151,7 @@ def main():
 
         # Avoid writing empty results
         if results:
-            output_filename = f"test6_results_batch_{batch_number}.csv"
+            output_filename = f"29062025_batch_{batch_number}.csv"
             with open(output_filename, mode='w', newline='', encoding='utf-8') as file:
                 writer = csv.DictWriter(file, fieldnames=results[0].keys())
                 writer.writeheader()
