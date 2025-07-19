@@ -9,10 +9,10 @@ import csv
 
 # Input and output file names
 SOURCE_FILE = "source.csv"
-RESULTS_FILE = "part2.csv"
+RESULTS_FILE = "link_result.csv"
 
 # Base URL for search
-BASE_SEARCH_URL = "https://ksiegarniainternetowa.co.uk/en/search?q="
+BASE_SEARCH_URL = "https://ksiegarniainternetowa.co.uk/pl/search?q="
 
 def scrape_product_link(isbn):
     """Scrape product link for a given ISBN."""
